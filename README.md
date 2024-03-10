@@ -1,6 +1,6 @@
 # Project Task By Week:
 
-## Week 1
+## Week 1: Research and Proposal
 **Project Idea: Design and Implementation of a User Interface for a Smart Home Assistant**
 
 **Emerging Technology:** Internet of Things (IoT)
