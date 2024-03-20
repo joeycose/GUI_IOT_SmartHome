@@ -1,40 +1,16 @@
-## Timeline
+# Project Timeline:
 
-**Week 1: Research and Proposal (5%)**
-- Due: March 12th
-- Research emerging technologies
-- Select technology for project
-- Write proposal outlining technology, significance, applications, target users, and UI vision
-- Present proposal to class for feedback
-
-**Week 2: Wireframing and Prototyping (5%)**
-- Due: March 19th
-- Develop wireframes and prototypes for UI
-- Focus on UX principles (usability, accessibility, interaction design)
-- Test prototypes with potential users
-- Iterate based on feedback
-
-**Week 3: Design Iteration and Feedback (5%)**
-- Due: March 26th
-- Refine design based on Week 2 feedback
-- Incorporate visual design principles (typography, color theory, layout)
-- Conduct usability testing
-
-**Week 4: Implementation (5%)**
-- Due: April 2nd
-- Code UI using appropriate programming languages and frameworks
-- Optimize performance and ensure compatibility
-- Document code and design decisions
-
-**Week 5: Testing and Debugging (5%)**
-- Due: April 9th
-- Test UI thoroughly to identify and fix bugs
-- Ensure compatibility across platforms and devices
-- Solicit feedback from peers and instructors
-
-**Week 6: Presentation and Final Submission (5%)**
-- Due: April 16th
-- Prepare final presentation showcasing UI design and implementation
-- Discuss challenges, solutions, and lessons learned
-- Demonstrate UI functionality and usability
-- Submit project documentation (design documents, codebase, supplementary materials)
+| Week | Deliverable | Due Date | Weight |
+| --- | --- | --- | --- |
+| 1 | Research and Proposal | March 12th | 5% |
+|   | - Research emerging technologies<br>- Select technology for project<br>- Write proposal outlining technology, significance, applications, target users, and UI vision<br>- Present proposal to class for feedback |
+| 2 | Wireframing and Prototyping | March 19th | 5% |
+|   | - Develop wireframes and prototypes for UI<br>- Focus on UX principles (usability, accessibility, interaction design)<br>- Test prototypes with potential users<br>- Iterate based on feedback |
+| 3 | Design Iteration and Feedback | March 26th | 5% |
+|   | - Refine design based on Week 2 feedback<br>- Incorporate visual design principles (typography, color theory, layout)<br>- Conduct usability testing |
+| 4 | Implementation | April 2nd | 5% |
+|   | - Code UI using appropriate programming languages and frameworks<br>- Optimize performance and ensure compatibility<br>- Document code and design decisions |
+| 5 | Testing and Debugging | April 9th | 5% |
+|   | - Test UI thoroughly to identify and fix bugs<br>- Ensure compatibility across platforms and devices<br>- Solicit feedback from peers and instructors |
+| 6 | Presentation and Final Submission | April 16th | 5% |
+|   | - Prepare final presentation showcasing UI design and implementation<br>- Discuss challenges, solutions, and lessons learned<br>- Demonstrate UI functionality and usability<br>- Submit project documentation (design documents, codebase, supplementary materials) |
