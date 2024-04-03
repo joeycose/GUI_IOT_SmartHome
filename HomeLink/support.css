@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "Inter Regular";
+    src: local("Inter Regular"),
+      url("fonts/Inter-Regular.ttf") format("opentype");
+    font-weight: normal;
+  }
+
+.search_field {
+    width: 50%;
+    font-family: 'Inter Regular';
+}
+
+.search_icon_field {
+    width: 4%;
+    margin-left: 0.5%;
+    font-family: 'Inter Regular';
+    border-radius: 10px;
+    background-color: #EDBAFF;
+}
+
+
+.search_icon {
+    background-image: url('images/search-normal.svg');
+    background-repeat: no-repeat;
+    background-position: center center; /* Adjust position of SVG */
+    background-size: 20px; /* Adjust size of SVG */ 
+    background-color: #EDBAFF;
+    border: none;   
+}
+
+.custom_card {
+    width: 40%;
+    font-family: 'Inter Regular';
+}
+
+@media (max-width: 768px) {
+    .search_field {
+        width: 80%;
+        font-family: 'Inter Regular';
+    }
+
+    .search_icon_field {
+        width: 17%;
+        margin-left: 1%;
+        font-family: 'Inter Regular';
+        border-radius: 10px;
+        background-color: #EDBAFF;
+    }
+    
+    
+    .search_icon {
+        background-image: url('images/search-normal.svg');
+        background-repeat: no-repeat;
+        background-position: center center; /* Adjust position of SVG */
+        background-size: 20px; /* Adjust size of SVG */ 
+        background-color: #EDBAFF;
+        border: none;   
+    }
+
+    .custom_card {
+        width: 100%;
+        font-family: 'Inter Regular';
+    }
+}
