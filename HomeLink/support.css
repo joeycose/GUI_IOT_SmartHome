@@ -33,6 +33,63 @@
     font-family: 'Inter Regular';
 }
 
+.custom_card_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; /* Align items to the bottom */
+    height: 5vh;
+    background-color: #cecece;
+    width: 100%;
+    border: none;
+    background-image: url('images/send.png');
+    background-repeat: no-repeat;
+    background-position: right 10px center; /* Adjust position of SVG */
+    background-size: 20px; /* Adjust size of SVG */ 
+}
+
+.collapse-vertical_content {
+    position: fixed;
+    bottom: 5.76vh; /* Adjust bottom distance */
+    right: 10px; /* Adjust right distance */
+    z-index: 999; /* Ensure it's above other content */
+    width: 19.79vw; /* Adjust width as needed */
+    height: 5vh;
+    text-align: left;
+    font-family: 'Inter Regular';
+    color: black;
+    font-size: 1.56vh;
+    background-color: white;
+}
+
+.collapse-vertical_btn {
+    position: fixed;
+    bottom: 0px; /* Adjust bottom distance */
+    right: 10px; /* Adjust right distance */
+    z-index: 1000; /* Ensure it's above other content */
+    width: 19.79vw; /* Adjust width as needed */
+    height: 5.76vh;
+    text-align: left;
+    font-family: 'Inter Regular';
+    font-size: 1.56vh;
+    background: linear-gradient(to right, white, #EDBAFF), url('images/search-normal.svg') no-repeat right 10px center;
+    color: black;
+}
+
+.collapse-vertical_btn:hover {
+    position: fixed;
+    bottom: 0; /* Adjust bottom distance */
+    right: 10px; /* Adjust right distance */
+    z-index: 1000; /* Ensure it's above other content */
+    width: 19.79vw; /* Adjust width as needed */
+    height: 5.76vh;
+    text-align: left;
+    font-family: 'Inter Regular';
+    font-size: 1.56vh;
+    background: linear-gradient(to right, white, #EDBAFF), url('images/search-normal.svg') no-repeat right 10px center;
+    color: black;
+}
+
 @media (max-width: 768px) {
     .search_field {
         width: 80%;
