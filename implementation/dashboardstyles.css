@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Inter Semi_Bold";
+    src: local("Inter Semi_Bold"),
+      url("assets/Inter-SemiBold.ttf") format("opentype");
+    font-weight: normal;
+  }
+
+@font-face {
+    font-family: "Inter Regular";
+    src: local("Inter Regular"),
+      url("assets/Inter-Regular.ttf") format("opentype");
+    font-weight: normal;
+  }
+
+
+.body_content {
+    margin-top: 7.22vh;
+    font-family: 'Inter Semi_Bold';
+}
+
+.support_nav {
+    margin-top: 3.8vh;
+}
+
+.white {
+    color: white;
+}
