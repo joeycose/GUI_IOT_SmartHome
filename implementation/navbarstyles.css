@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "Inter Semi_Bold";
+    src: local("Inter Semi_Bold"),
+      url("assets/Inter-SemiBold.ttf") format("opentype");
+    font-weight: normal;
+  }
+
+@font-face {
+    font-family: "Inter Regular";
+    src: local("Inter Regular"),
+      url("assets/Inter-Regular.ttf") format("opentype");
+    font-weight: normal;
+  }
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.full_screen {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.navbar {
+    color: white;
+    padding-top: 6.94vh;
+}
+
+.navbar_logo {
+    padding-left: 1.81vw;
+}
+
+.dashboard_text {
+    padding-left: 4.29vw;
+    font-family: 'Inter Semi_Bold';
+    font-size: 2.73vh; 
+}
+
+.navbar_search {
+    width: 17.47vw;
+    height: 3.90vh;
+    background-color: #252525;
+    border: none; /* Remove default input border */
+    border-radius: 10px; /* Adjust border-radius to make it rounder */
+    padding: 0 10px; /* Add padding to provide some spacing inside the input */
+    color: #7A7A7A; /* Set text color to white */
+    font-family: 'Inter Regular';
+    font-size: 1.17vh;
+    background-image: url('assets/search-normal.svg');
+    background-repeat: no-repeat;
+    background-position: right 10px center; /* Adjust position of SVG */
+    background-size: 20px; /* Adjust size of SVG */
+    margin-left: 2.43vw;
+}
+
+.navbar_help {
+    margin-left: 1.5vw;
+}
+
+.navbar_notif {
+    margin-left: 0.5vw;
+}
+
+.navbar_profile {
+    margin-left: 3vw;
+}

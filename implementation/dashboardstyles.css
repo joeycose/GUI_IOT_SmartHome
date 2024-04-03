@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Inter Semi_Bold";
+    src: local("Inter Semi_Bold"),
+      url("assets/Inter-SemiBold.ttf") format("opentype");
+    font-weight: normal;
+  }
+
+@font-face {
+    font-family: "Inter Regular";
+    src: local("Inter Regular"),
+      url("assets/Inter-Regular.ttf") format("opentype");
+    font-weight: normal;
+  }
+
+
+.body_content {
+    margin-top: 7.22vh;
+    font-family: 'Inter Semi_Bold';
+}
+
+.support_nav {
+    margin-top: 3.8vh;
+}
+
+.white {
+    color: white;
+}
+
+.grey {
+  color: #7A7A7A;
+}
+
+.gradient-button {
+  background: linear-gradient(to top right, #A1FFFF, #da1b60); /* Define the gradient */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
