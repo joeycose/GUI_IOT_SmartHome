@@ -25,3 +25,17 @@
 .white {
     color: white;
 }
+
+.grey {
+  color: #7A7A7A;
+}
+
+.gradient-button {
+  background: linear-gradient(to top right, #A1FFFF, #da1b60); /* Define the gradient */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
