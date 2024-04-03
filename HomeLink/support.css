@@ -90,6 +90,10 @@
     color: black;
 }
 
+.inter {
+    font-family: "Inter Regular";
+}
+
 @media (max-width: 768px) {
     .search_field {
         width: 80%;
