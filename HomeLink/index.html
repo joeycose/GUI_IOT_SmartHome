@@ -104,14 +104,26 @@
 </head>
 
 <body>
-  <header class="navbar sticky-top flex-md-nowrap p-0 shadow" data-bs-theme="dark" style="background-color: black;">
-    <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6 text-white" style="background-color: black;" href="#">HomeLink</a>
-  </header>
+  <nav class="navbar navbar-inverse" style="background-color: black;">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand text-white" href="index.html">HomeLink</a>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <form class="d-flex p-1" role="search">
+          <button class="btn btn-outline-primary me-2" type="submit">Login</button>
+          <button class="btn btn-outline-primary" type="submit">Sign Up</button>
+        </form>
+      </ul>
+    </div>
+  </nav>
+
 
   <div class="container-fluid">
     <div class="row flex-nowrap">
       <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0" style="background-color: black;">
-        <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100" style="background-color: black;">
+        <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100"
+          style="background-color: black;">
           <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
             <span class="fs-5 d-none d-sm-inline">Menu</span>
           </a>
