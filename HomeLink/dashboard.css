@@ -54,12 +54,11 @@
   border: none; /* Remove default input border */
   border-radius: 10px; /* Adjust border-radius to make it rounder */
   padding: 0 10px; /* Add padding to provide some spacing inside the input */
-  color: #7A7A7A; /* Set text color to white */
-  font-family: 'Inter Regular';
-  font-size: 1.17vh;
+  color: white; /* Set text color to white */
+  font-size: 14px;
   background-image: url('assets/search-normal.svg');
   background-repeat: no-repeat;
   background-position: right 10px center; /* Adjust position of SVG */
   background-size: 20px; /* Adjust size of SVG */
-  margin-right: 30.43vw;
+  margin-right: 34.43vw;
 }
