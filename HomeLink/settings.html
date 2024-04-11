@@ -107,17 +107,20 @@
 <body>
     <nav class="navbar navbar-inverse" style="background-color: black;">
         <div class="container-fluid align-items-center">
-            <div class="navbar-header">
-                <a class="navbar-brand text-white" href="index.html"><img src="./images/logo.png" alt="Bootstrap"></a>
-            </div>
-            <h3 class="text-white" style="font-size: 24px;">Dashboard</h3>
-            <input type="text" class="navbar_search" placeholder="Search type of keywords" />
-            <ul class="nav navbar-nav navbar-right">
-                <form class="d-flex p-1" role="search">
-                    <button class="btn btn-outline-primary me-2"><a class="text-decoration-none" href="../HomeLink/log-in.html">Login</a></button>
-                    <button class="btn btn-outline-primary"><a class="text-decoration-none" href="../HomeLink/sign-up.html">Sign up</a></button>
-                </form>
-            </ul>
+          <div class="navbar-header">
+            <a class="navbar-brand text-white" href="index.html"><img src="./images/logo.png" alt="Bootstrap"></a>
+          </div>
+          <h3 class="text-white" style="font-size: 24px;">Dashboard</h3>
+          <input type="text" class="navbar_search search_field" placeholder="Search type of keywords" />
+          <button class="btn btn-outline-primary search_btn">Search</button>
+          <ul class="nav navbar-nav navbar-right">
+            <form class="d-flex p-1">
+              <button class="btn btn-outline-primary me-2"><a class="text-decoration-none"
+                  href="../HomeLink/log-in.html">Login</a></button>
+              <button class="btn btn-outline-primary"><a class="text-decoration-none" href="../HomeLink/sign-up.html">Sign
+                  up</a></button>
+            </form>
+          </ul>
         </div>
     </nav>
 
@@ -147,11 +150,10 @@
                 </div>
             </div>
             <div class="col py-3 inter" style="background-color: black;">
-                <div class="row">
                     <div class="d-flex justify-content-center text-white">
                         <h3>Settings</h3>
                     </div>
-                    <div class="col-md-4 col-sm-12 mb-3 mb-sm-0">
+                    <div class="col-md-6 col-sm-12">
                         <div class="card" style="background-color: #0E45B7;">
                             <div class="card-body text-white">
                                 <img src="images/personal_info.svg"/>
@@ -161,7 +163,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-12">
+                    <br/>
+                    <div class="col-md-6 col-sm-12">
                         <div class="card" style="background-color: #0E45B7;">
                             <div class="card-body text-white">
                                 <img src="images/security.svg"/>
@@ -171,7 +174,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-12">
+                    <br/>
+                    <div class="col-md-6 col-sm-12">
                         <div class="card" style="background-color: #0E45B7;">
                             <div class="card-body text-white">
                                 <img src="images/preferences.svg"/>
@@ -181,10 +185,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4"></div>
-                    <div class="col-md-4 col-sm-12 pt-4">
+                    <br/>
+                    <div class="col-md-6 col-sm-12">
                         <div class="card" style="background-color: #0E45B7;">
                             <div class="card-body text-white">
                                 <img src="images/referral.svg"/>
@@ -194,7 +196,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                    <br/>
                 
             </div>
         </div>

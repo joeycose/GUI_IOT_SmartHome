@@ -60,5 +60,27 @@
   background-repeat: no-repeat;
   background-position: right 10px center; /* Adjust position of SVG */
   background-size: 20px; /* Adjust size of SVG */
-  margin-right: 34.43vw;
+}
+
+@media (max-width: 768px) {
+  .search_field {
+    width: 50vw;
+  }
+
+  .navbar_search {
+    width: 20vw;
+    height: 3.90vh;
+    background-color: #252525;
+    border: none; /* Remove default input border */
+    border-radius: 10px; /* Adjust border-radius to make it rounder */
+    padding: 0 10px; /* Add padding to provide some spacing inside the input */
+    color: white; /* Set text color to white */
+    font-size: 14px;
+    background-image: url('assets/search-normal.svg');
+    background-repeat: no-repeat;
+    background-position: right 10px center; /* Adjust position of SVG */
+    background-size: 20px; /* Adjust size of SVG */
+  }
+
+  
 }

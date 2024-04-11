@@ -29,7 +29,7 @@
 }
 
 .custom_card {
-    width: 40%;
+    width: 60%;
     font-family: 'Inter Regular';
 }
 
@@ -53,7 +53,7 @@
     bottom: 5.76vh; /* Adjust bottom distance */
     right: 10px; /* Adjust right distance */
     z-index: 999; /* Ensure it's above other content */
-    width: 19.79vw; /* Adjust width as needed */
+    width: 25vw; /* Adjust width as needed */
     height: 5vh;
     text-align: left;
     font-family: 'Inter Regular';
@@ -67,7 +67,7 @@
     bottom: 0px; /* Adjust bottom distance */
     right: 10px; /* Adjust right distance */
     z-index: 1000; /* Ensure it's above other content */
-    width: 19.79vw; /* Adjust width as needed */
+    width: 25vw; /* Adjust width as needed */
     height: 5.76vh;
     text-align: left;
     font-family: 'Inter Regular';
@@ -81,7 +81,7 @@
     bottom: 0; /* Adjust bottom distance */
     right: 10px; /* Adjust right distance */
     z-index: 1000; /* Ensure it's above other content */
-    width: 19.79vw; /* Adjust width as needed */
+    width: 25vw; /* Adjust width as needed */
     height: 5.76vh;
     text-align: left;
     font-family: 'Inter Regular';
@@ -121,5 +121,51 @@
     .custom_card {
         width: 100%;
         font-family: 'Inter Regular';
+    }
+
+    .collapse-vertical_content {
+        position: fixed;
+        bottom: 5.76vh; /* Adjust bottom distance */
+        right: 10px; /* Adjust right distance */
+        z-index: 999; /* Ensure it's above other content */
+        width: 50vw; /* Adjust width as needed */
+        height: 5vh;
+        text-align: left;
+        font-family: 'Inter Regular';
+        color: black;
+        font-size: 1.56vh;
+        background-color: white;
+    }
+
+    .custom_font_size {
+        font-size: 1.56vh;
+    }
+    
+    .collapse-vertical_btn {
+        position: fixed;
+        bottom: 0px; /* Adjust bottom distance */
+        right: 10px; /* Adjust right distance */
+        z-index: 1000; /* Ensure it's above other content */
+        width: 50vw; /* Adjust width as needed */
+        height: 5.76vh;
+        text-align: left;
+        font-family: 'Inter Regular';
+        font-size: 1.56vh;
+        background: linear-gradient(to right, white, #EDBAFF), url('images/search-normal.svg') no-repeat right 10px center;
+        color: black;
+    }
+    
+    .collapse-vertical_btn:hover {
+        position: fixed;
+        bottom: 0; /* Adjust bottom distance */
+        right: 10px; /* Adjust right distance */
+        z-index: 1000; /* Ensure it's above other content */
+        width: 50vw; /* Adjust width as needed */
+        height: 5.76vh;
+        text-align: left;
+        font-family: 'Inter Regular';
+        font-size: 1.56vh;
+        background: linear-gradient(to right, white, #EDBAFF), url('images/search-normal.svg') no-repeat right 10px center;
+        color: black;
     }
 }
