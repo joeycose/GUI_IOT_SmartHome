@@ -64,6 +64,6 @@ Through the use of the Bootstrap grid system, we were able to control how differ
 
 --- 
 
-This audit is meant to expose surface level issues of our implementation in compatability. Our implementation to this point has been at mostly a design level, and the audit has revealed some common issues. The forefront issue lies with the iPad viewports, as it's clear the font size is not where it should be to have the application be readable and accessible to all viewers. 
+This audit is meant to expose surface level issues of our implementation in compatability. Our implementation to this point has been at mostly a design level, and the audit has revealed some common issues. The forefront issue lies with the iPad viewports, as it's clear in some views the font size is not where it should be to have the application be readable and accessible to all viewers. There were other sizing issues found within the scope of iPad users, such as the size of the 'Chat with Support' button, where the width was noticeably small. In addition, The search button's proportions on this view were noticeablely skewed. 
 
 
