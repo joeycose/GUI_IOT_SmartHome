@@ -22,8 +22,8 @@
 .search_icon {
     background-image: url('images/search-normal.svg');
     background-repeat: no-repeat;
-    background-position: center center; /* Adjust position of SVG */
-    background-size: 20px; /* Adjust size of SVG */ 
+    background-position: center center; 
+    background-size: 20px;  
     background-color: #EDBAFF;
     border: none;   
 }
@@ -37,23 +37,23 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start; /* Align items to the bottom */
+    align-items: flex-start; 
     height: 5vh;
     background-color: #cecece;
     width: 100%;
     border: none;
     background-image: url('images/send.png');
     background-repeat: no-repeat;
-    background-position: right 10px center; /* Adjust position of SVG */
-    background-size: 20px; /* Adjust size of SVG */ 
+    background-position: right 10px center; 
+    background-size: 20px; 
 }
 
 .collapse-vertical_content {
     position: fixed;
-    bottom: 5.76vh; /* Adjust bottom distance */
-    right: 10px; /* Adjust right distance */
-    z-index: 999; /* Ensure it's above other content */
-    width: 25vw; /* Adjust width as needed */
+    bottom: 5.76vh; 
+    right: 10px; 
+    z-index: 999;
+    width: 25vw; 
     height: 5vh;
     text-align: left;
     font-family: 'Inter Regular';
@@ -64,10 +64,10 @@
 
 .collapse-vertical_btn {
     position: fixed;
-    bottom: 0px; /* Adjust bottom distance */
-    right: 10px; /* Adjust right distance */
-    z-index: 1000; /* Ensure it's above other content */
-    width: 25vw; /* Adjust width as needed */
+    bottom: 0px; 
+    right: 10px;
+    z-index: 1000; 
+    width: 25vw; 
     height: 5.76vh;
     text-align: left;
     font-family: 'Inter Regular';
@@ -78,10 +78,10 @@
 
 .collapse-vertical_btn:hover {
     position: fixed;
-    bottom: 0; /* Adjust bottom distance */
-    right: 10px; /* Adjust right distance */
-    z-index: 1000; /* Ensure it's above other content */
-    width: 25vw; /* Adjust width as needed */
+    bottom: 0;
+    right: 10px;
+    z-index: 1000; 
+    width: 25vw; 
     height: 5.76vh;
     text-align: left;
     font-family: 'Inter Regular';
@@ -112,8 +112,8 @@
     .search_icon {
         background-image: url('images/search-normal.svg');
         background-repeat: no-repeat;
-        background-position: center center; /* Adjust position of SVG */
-        background-size: 20px; /* Adjust size of SVG */ 
+        background-position: center center; 
+        background-size: 20px;
         background-color: #EDBAFF;
         border: none;   
     }
@@ -125,10 +125,10 @@
 
     .collapse-vertical_content {
         position: fixed;
-        bottom: 5.76vh; /* Adjust bottom distance */
-        right: 10px; /* Adjust right distance */
-        z-index: 999; /* Ensure it's above other content */
-        width: 50vw; /* Adjust width as needed */
+        bottom: 5.76vh; 
+        right: 10px; 
+        z-index: 999; 
+        width: 50vw; 
         height: 5vh;
         text-align: left;
         font-family: 'Inter Regular';
@@ -143,10 +143,10 @@
     
     .collapse-vertical_btn {
         position: fixed;
-        bottom: 0px; /* Adjust bottom distance */
-        right: 10px; /* Adjust right distance */
-        z-index: 1000; /* Ensure it's above other content */
-        width: 50vw; /* Adjust width as needed */
+        bottom: 0px; 
+        right: 10px; 
+        z-index: 1000; 
+        width: 50vw; 
         height: 5.76vh;
         text-align: left;
         font-family: 'Inter Regular';
@@ -157,10 +157,10 @@
     
     .collapse-vertical_btn:hover {
         position: fixed;
-        bottom: 0; /* Adjust bottom distance */
-        right: 10px; /* Adjust right distance */
-        z-index: 1000; /* Ensure it's above other content */
-        width: 50vw; /* Adjust width as needed */
+        bottom: 0;
+        right: 10px;
+        z-index: 1000; 
+        width: 50vw; 
         height: 5.76vh;
         text-align: left;
         font-family: 'Inter Regular';

@@ -109,7 +109,6 @@
   <link href="support.css" rel="stylesheet">
 
   <style>
-    /* Custom gradient for the switch */
     .form-switch .form-check-input:checked  {
       background-image: linear-gradient(to top right, #EDBAFF, #A1FFFF) !important;
     }
@@ -239,7 +238,6 @@
       const humiditySlider = document.getElementById('humiditySlider');
       const humidityValue = document.getElementById('humidityValue');
   
-      // Update the humidity value when the slider value changes
       humiditySlider.addEventListener('input', function() {
         humidityValue.textContent = this.value;
       });
@@ -247,8 +245,7 @@
         <script>
           const tempSlider = document.getElementById('tempSlider');
           const tempValue = document.getElementById('tempValue');
-      
-          // Update the humidity value when the slider value changes
+  
           tempSlider.addEventListener('input', function() {
             tempValue.textContent = this.value;
           });
