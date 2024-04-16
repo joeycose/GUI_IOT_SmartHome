@@ -102,6 +102,13 @@
   <!-- Custom styles for this template -->
   <link href="dashboard.css" rel="stylesheet">
   <link href="support.css" rel="stylesheet">
+
+  <style>
+    /* Custom gradient for the switch */
+    .form-switch .form-check-input:checked  {
+      background-image: linear-gradient(to top right, #EDBAFF, #A1FFFF) !important;
+    }
+  </style>
 </head>
 
 <body>
@@ -171,7 +178,9 @@
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Lighting</h5>
-                <p class="card-text">On</p>
+                <div class="custom-control form-check form-switch">
+                  <input class="form-check-input custom_control_input" type="checkbox" id="mySwitch">
+                </div>
               </div>
             </div>
           </div>
@@ -179,7 +188,9 @@
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Security</h5>
-                <p class="card-text">Armed</p>
+                <div class="form-check form-switch">
+                  <input class="form-check-input" type="checkbox" id="mySwitch">
+                </div>
               </div>
             </div>
           </div>
